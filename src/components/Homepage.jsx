@@ -47,7 +47,7 @@ function Homepage() {
       </div>
 
       <div>
-      <Card></Card>
+        <Card></Card>
       </div>
 
       <div className="text-center"data-aos="fade-up">

@@ -39,3 +39,10 @@ h2{
     background-repeat: no-repeat;
     height: 191px;
 }
+
+
+/*{
+    "rewrites": [
+        {"source": "/(.*)", "destination": "/"}
+    ]
+}*/

@@ -23,10 +23,10 @@ function Contact() {
                 <i className="fa fa-phone" aria-hidden="false"></i>
                 </span>+234 9072211222</a>
               </div>
-              <div className='mb-3'>
-                <a href="tel:234 8167000077" className='text-decoration-none text-dark'>
+              <div className='mt-3'>
+                <a href="tel:2348167000077" className='text-decoration-none text-dark'>
                 <span className='me-3'>
-                <i className="fa fa-whatsapp" aria-hidden="false"></i>
+                <i className=" fa fa-phone" aria-hidden="false"></i>
                 </span>+234 8167000077</a>
               </div>
               <div className='mt-3'>
