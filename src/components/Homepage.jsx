@@ -5,6 +5,7 @@ import Rec26 from '../assets/Rec26.jpg'
 import Rec27 from '../assets/Rec27.jpg'
 import Rec28 from '../assets/Rec28.jpg'
 import Form from './Form'
+import MyCarousel from './MyCarousel'
 
 
 function Homepage() {
@@ -47,7 +48,7 @@ function Homepage() {
       </div>
 
       <div>
-        <Card></Card>
+      <Card></Card>
       </div>
 
       <div className="text-center"data-aos="fade-up">

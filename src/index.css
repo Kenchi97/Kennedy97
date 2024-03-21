@@ -39,3 +39,6 @@ h2{
     background-repeat: no-repeat;
     height: 191px;
 }
+.slick-slide > div{
+    margin: 0 10px;
+}

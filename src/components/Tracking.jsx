@@ -42,11 +42,11 @@ function Tracking() {
             </div>
           </div>
           <div className='col-md-6'>
-            <form action="" onSubmit={handleSubmit}>
-              <input type="text" className='form-control mb-3' placeholder='Enter your tracking ID Here'  value={trackingId} onChange={handleInputChange}/> {error && <div className='text-danger'>{error}</div>}
-              <button className='btn btn-danger'>Track</button>
-
-            </form>
+            <form className='d-flex' action="" onSubmit={handleSubmit}>
+              <input type="text" className='form-control me-3' placeholder='Enter your tracking ID Here'  value={trackingId} onChange={handleInputChange}/> {error && <div className='text-danger'>{error}</div>}
+              </form>
+              <button className='btn btn-danger mt-3'>Track</button>
+            
 
         </div>
         </div>

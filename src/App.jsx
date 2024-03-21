@@ -5,10 +5,7 @@ import Homepage from './components/Homepage'
 import Services from './components/Services'
 import Tracking from './components/Tracking'
 import Contact from './components/Contact'
-
-
-
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -19,6 +16,7 @@ function App() {
       once:false
     });
   }, [])
+
 
 
 
@@ -35,7 +33,7 @@ function App() {
   </Router>
   <Footer></Footer>
   </>
-  )
-}
+  ) ;
+} ;
 
-export default App
+export default App;

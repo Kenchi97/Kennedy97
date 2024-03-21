@@ -16,8 +16,8 @@ function Header() {
       <div className="navbar-nav mx-auto">
         <a className="nav-link active text-danger" href="/">Home</a>
         <a className="nav-link" href="/services">Services</a>
-        <a className="nav-link" href="/tracking">Tracking</a>
-        <a className="nav-link" href="/contact"> Contact</a>
+        <a className="nav-link " href="/tracking">Tracking</a>
+        <a className="nav-link " href="/contact"> Contact</a>
       </div>
       <div className="navbar">
         <a href="/contact" className="btn btn-danger">Request Quote</a>
