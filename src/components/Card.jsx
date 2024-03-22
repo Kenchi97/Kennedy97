@@ -15,9 +15,29 @@ function Card() {
   
   const settings = {
     autoplay: true,
-    autoplayspeed: 5000,
+    autoplayspeed: 7000,
     slidesToShow: 3,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint : 1024,
+        settings: {
+          autoplay: true,
+          autoplayspeed: 7000,
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint : 768,
+        settings: {
+          autoplay: true,
+          autoplayspeed: 7000,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      },
+  ]
   };
   return (
     <div className='Container'>
